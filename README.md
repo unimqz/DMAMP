@@ -1,6 +1,6 @@
 # DMAMP: A deep-learning model for detecting antimicrobial peptides and multi-activities
 
-This is a predictor for antimicrobial peptides and specific activities prediction simultaneously, called DMAMP(Deep-learning Model for AntiMicrobial Peptides).
+This is a predictor for antimicrobial peptides and specific activities prediction simultaneously, called DMAMP (Deep-learning Model for AntiMicrobial Peptides).
 
 ![image](https://github.com/unimqz/DMAMP/blob/main/flowchart.png)
 
