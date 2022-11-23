@@ -5,7 +5,8 @@ This is a predictor for antimicrobial peptides and specific activities predictio
 ![image](https://github.com/unimqz/DMAMP/blob/main/flowchart.png)
 
 ## Requirements
-* The prediction pipeline uses Python3 and requires the following modules:
+
+The prediction pipeline uses Python3 and requires the following modules:
 * Numpy;
 * Keras;
 * Tensorflow;
@@ -21,8 +22,6 @@ model_path = r'model/final_model_710_epoch20_lr0.0001_bc10_task11_2'
 model = load_model(model_path, custom_objects={'weight_sample_loss': weight_sample_loss, 'f1_metric':f1_metric, 'recall_metric': recall_metric, 'precision_metric': precision_metric})
 ```
 ## Datasets
-
-We uploaded the datasets in this work.
 
 bench_878_amp.fa, bench_2405_nonamp.fa: The positive and negative datasets of the training datasets.
 
